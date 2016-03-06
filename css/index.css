@@ -1,0 +1,458 @@
+/*Body*/
+/*body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: #31B96E;
+}*/
+
+/*.checkbox, .radio {
+  margin-bottom: 20px;
+}*/
+/*.textbox {
+  background: black;
+}*/
+
+/*.firstName {
+  padding-right: 2px;
+}
+
+.lastName {
+  padding-left: 2px;
+}*/
+
+/*.modal-footer .checkbox {
+  text-align: left;
+}*/
+/*End Body*/
+
+/*Background*/
+#bg {
+  background: url(http://www.partake.de/wp-content/uploads/2015/06/Negative-Brainstorm-Methode-Content.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+/*End Background*/
+
+.img-circle {
+    width: 200px;
+}
+/*Navbar*/
+.navbar {
+    background:transparent;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 10%;
+}
+
+/*Pills*/
+.nav-pills {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-toggle{
+  margin-right: 0px;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #31B96E;
+}
+
+.navbar .nav-pills >li >a {
+    color: #616536;
+    margin-left: 15px;
+ }
+
+.navbar .nav-pills > li > a:hover {
+    background-color: #31B96E;
+    color: #fff;
+    border: 1px solid #fff;
+ }
+
+ .nav-pills>li>a:focus {
+  color: #fff;
+  background-color: #2ca663;
+}
+
+.navbar .nav-pills .active > a {
+    background-color: #fff;
+    color:#31B96E;
+    border: 1px solid #31B96E;
+}
+
+.nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: #2ca663;
+}
+/*End Pills*/
+
+/*Slide menu*/
+.navbar .navbar-nav >li > a {
+    color: #31B96E;
+    text-align: center;
+    font-weight: 500;
+    z-index: 1000;
+}
+
+.navbar .navbar-nav >li > a {
+  background: rgba(212, 239, 227, 1);
+}
+
+.navbar .navbar-nav >li > a:hover {
+    color: #31B96E;
+    background: rgba(176, 224, 193,1);
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background: rgba(167, 211, 183, 1);
+}
+
+/*End Slide Menu*/
+
+
+/*Mobile Button*/
+.navbar-default .navbar-toggle {
+  border-color: #31B96E;
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #31B96E;
+  color: #fff;
+}
+/*End Mobile Button*/
+
+/*Stiky Plugin*/
+.is-sticky .navbar {
+  background-color: #31B96E;
+  color: white;
+  z-index: 1000;
+  /*transition: 1s;*/
+}
+
+.is-sticky .navbar .nav-pills >li >a {
+  color: white;
+}
+
+.is-sticky .navbar .nav-pills .active > a {
+  color: #31B96E;
+}
+
+.is-sticky .navbar-nav {
+  z-index: 1000;
+  /*transition: 1s;*/
+}
+
+.is-sticky .navbar .navbar-brand {
+  color: white;
+}
+
+.is-sticky .navbar .navbar-nav >li > a {
+  color: white;
+  background: #31B96E;
+}
+
+.is-sticky .navbar .navbar-nav >li > a:hover{
+  background: #349D63;
+  color: white;
+}
+/*End Stiky Plugin*/
+/*End Navbar*/
+
+/*Button*/
+.btn {
+    background-color: #31B96E;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 100%;
+}
+.btn:hover {
+  background-color: #2ca663;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn:active {
+  background-color: #fff;
+  color: #31B96E;
+}
+/*End Button*/
+
+/*Form*/
+.form-control {
+  border: 1px solid #616536;
+}
+/*End Form*/
+
+/*Section-1*/
+
+body .section-1 {
+      padding-top: 6%;
+      border-bottom: 3px solid #ccc;
+  }
+
+h1 .green {
+  color: #31B96E;
+}
+
+h4 .green {
+  color: #31B96E;
+}
+
+
+/*End Section-1*/
+
+body .section-2 {
+      border-top: 3px solid #ccc;
+  }
+
+
+footer {
+    padding-top: 35px;
+    padding-bottom: 15px;
+    background-color: #222;
+    border-top: 3px solid #ccc;
+}
+
+footer h3 .green {
+  color: #31B96E;
+}
+
+footer h5 {
+  color: grey;
+}
+.section-3 {
+  height: 500px;
+  background: url("https://mariacirstea.files.wordpress.com/2015/03/8_ceai2.gif") no-repeat fixed center;
+  background-size: 100% 100%;
+}
+
+.section-3 > p {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 350%;
+  padding-top: 18%;
+}
+
+.cover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-inner {
+  height: 100%;
+  color: white;
+}
+
+/*
+inspired from http://codepen.io/Rowno/pen/Afykb 
+*/
+.item{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+/* just for demo purpose */
+    html,
+    body,
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+      height: 100%;
+    }
+
+    .item:nth-child(1) {
+      background: #31b96e;
+    }
+
+    .item:nth-child(2) {
+      background: #31b9b2;
+    }
+
+    .item:nth-child(3) {
+      background: #84CF96;
+    }
+
+
+.modal-body .form-control{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+}
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px){
+  body .section-1 h1 {
+      font-size: 190%;
+  }
+  
+  .section-3 {
+    background: url("https://s-media-cache-ak0.pinimg.com/736x/1a/e2/13/1ae2132151aa31a39852726f684c65a9.jpg") no-repeat fixed center;
+  }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px){ 
+
+  .kettle{
+    padding: 15px 15px;
+  }
+
+  .navbar {
+  background: rgba(212, 239, 227, 1);
+  z-index: 1000;
+
+  }
+
+  .submit-btn {
+    padding-top: 10px;
+  }
+
+.firstName {
+  padding-right: 15px;
+}
+
+.lastName {
+  padding-left: 15px;
+}
+
+}
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px){
+
+  body .section-2 h1{
+    font-size: 250%;
+  }
+  body .section-2 h2{
+    font-size: 200%;
+  }
+  
+  .kettle{
+    padding-top:15px;
+  }
+
+  body .section-1 form {
+    padding-right: 5px;
+  }
+
+  .submit-btn {
+    padding-left: 0px;
+  }
+
+  body .section-1 h1 {
+      font-size: 300%;
+  }
+
+}
+
+
+/* Landscape tablets and medium desktops */
+/*@media (min-width: 992px) and (max-width: 1199px)*/
+@media (min-width: 992px){
+
+  body .section-2 h1{font-size: 350%;
+        }
+  body .section-2 h2{font-size: 280%;
+        
+  }
+  .section-1 {
+        height: 560px;
+  }
+  body .section-1 h1 {
+      color: white;
+      font-size: 300%;
+      text-align: left;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 15px 15px;
+
+
+  }
+
+  .navbar .nav-pills >li >a {
+      color: white;
+  }
+
+
+.section-1 form {
+  padding-top: 10px;
+}
+
+.submit-btn {
+  padding-top: 10px;
+}
+
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
