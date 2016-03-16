@@ -76,7 +76,6 @@ a {
 .navbar .nav-pills > li > a:hover {
     background-color: #31B96E;
     color: #fff;
-    border: 1px solid #fff;
  }
 
  .nav-pills>li>a:focus {
@@ -124,7 +123,7 @@ a {
 
 /*Mobile Button*/
 .navbar-default .navbar-toggle {
-  border-color: #31B96E;
+  /*border-color: #31B96E;*/
   background-color: #fff;
 }
 

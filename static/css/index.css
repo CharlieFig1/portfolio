@@ -1,0 +1,126 @@
+/*body*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#background {
+  background: 
+  linear-gradient(
+      rgba(51, 9, 159, 0.60),
+      rgba(210, 39, 8, 0.60)
+      
+    ),
+  url(http://www.partake.de/wp-content/uploads/2015/06/Negative-Brainstorm-Methode-Content.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+
+.tag-line {
+  color: #fff;
+}
+
+.img-circle {
+    width: 200px;
+}
+/*Navbar*/
+.navbar {
+    background:transparent;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+}
+
+
+/*Pills*/
+.nav-pills {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-toggle{
+  margin-right: 0px;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f71f02;
+}
+
+.navbar-default {
+  border: none;
+  }
+
+.navbar-default .navbar-brand,
+.navbar .nav-pills >li >a {
+    color: #fff;
+    margin-left: 15px;
+    border-radius: 40px;
+ }
+
+.navbar .nav-pills > li > a:hover {
+    background-color: #f71f02;
+    color: #fff;
+ }
+
+ .nav-pills>li>a:focus {
+  color: #fff;
+  background-color: #f71f02;
+}
+
+.navbar .nav-pills .active > a {
+    background-color: #fff;
+    color:#f71f02;
+    border: 1px solid #f71f02;
+}
+
+.nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: #f71f02;
+}
+/*End Pills*/
+
+/*Slide menu*/
+.navbar .navbar-nav >li > a {
+    color: #31B96E;
+    text-align: center;
+    font-weight: 500;
+    z-index: 1000;
+}
+
+.navbar .navbar-nav >li > a {
+  background: rgba(212, 239, 227, 1);
+}
+
+.navbar .navbar-nav >li > a:hover {
+    color: #31B96E;
+    background: rgba(176, 224, 193,1);
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus {
+  color: #fff;
+  background: rgba(167, 211, 183, 1);
+}
+
+/*End Slide Menu*/
+
+
+/*Mobile Button*/
+.navbar-default .navbar-toggle {
+  /*border-color: #31B96E;*/
+  background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #31B96E;
+  color: #fff;
+}

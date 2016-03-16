@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- start of header -->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Portfolio | Charlie</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
     <!-- CSS -->    
-    <link rel="stylesheet" href="css/index.css">
-
-
+    <link rel="stylesheet" href="{{url_for('static', filename='css/index.css')}}">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,109 +23,92 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+<!-- end of header -->
+<!-- start of body -->
   <body>
-        <div class="container-fluid" id="bg">
-      <div class="row">
-        <div class="navbar navbar-default" role="navigation">
-          <div class="container">
-            <div class="row">
-              
-              <div class="navbar-header">
-                
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-btn">
-                  
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                
-                </button> <!-- end mobile button -->
-
+      <div class="container-fluid" id="background">
+        <div class="row">
+          <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+              <div class="row">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile-btn">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>         
+                  </button> <!-- end mobile button -->
                 <a class="navbar-brand" href="#"> Charlie </a> <!-- brand -->
-            
-              </div> <!-- end navbar-header elements -->   
-            
+                </div> <!-- end navbar-header elements -->   
                 <div class="tabbable">
                   <div class="collapse navbar-collapse">
-                    
                     <ul class="nav nav-pills navbar-right">
-                      <li class=""> <a href="#login" data-toggle="modal"><strong>Phone</strong></a> </li>
-                      <li class="active"> <a href="#"><strong>Have a coffee</strong></a> </li>
+                      <li class="">
+                        <a href="" data-toggle="modal" data-target="#myModal">
+                        <i class="fa fa-phone fa-2x"></i></a>
+                      </li>
+                        <li class="active">
+                        <a target="_blank" href="https://www.tenthousandcoffees.com/profile/charlie-herrera">Have a <i class="fa fa-coffee fa-lg"></i></a>
+                      </li>
                     </ul>  
-                  
                   </div> <!-- end navbar -->
-                </div> <!-- end tabbable desktop menu-->
-              
+                </div> <!-- end tabbable desktop menu-->    
               <div class="container-fluid">
                 <div class="row">
                   <div class="collapse navbar-collapse" id="mobile-btn">
-              
                     <ul class="nav navbar-nav visible-xs">
-                      <li class=""><a href="#login" data-toggle="modal">Phone</a></li>
+                      <li class=""><a href="#login" data-toggle="modal" data-target="#myModal">Phone</a></li>
                       <li class=""> <a href="#">Have a coffee</a> </li>
                     </ul> 
-              
                   </div> <!-- end mobile collapse-->
                 </div> <!-- end mobile row -->
               </div> <!-- end mobile container -->
-            
-            </div> <!-- end navbar row -->
-          </div> <!-- end navbar container-fluid -->
-        </div> <!-- end navbar -->
-
-          <div class="container">
+              </div> <!-- end navbar row -->
+            </div> <!-- end navbar container-fluid -->
+          </div> <!-- end navbar -->
+<!-- end of body -->
+          <div class="container tag-line">
             <div class="row">
             <div class="text-center">
-            <img src="assets/profile.jpg" alt="..." class="img-circle">
+            <img src="{{url_for('static', filename='assets/profile.jpg')}}" alt="..." class="img-circle">
             <h1>Charlie</h1>
-            <h2>Designer. Programmer. Creative. Innovator.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+            
             </div> 
-
-<!--               <div class="col-xs-10 col-md-5 
-                          col-xs-offset-1 col-md-offset-0
-                          text-center">  -->
-               <!--  <h1><strong>Choice</strong>
-                </br>
-                Custom
-                <span class="green"><strong>tea</strong></span>
-                flavors
-                </br>
-                Shipped free
-                </h1> -->
-              <!-- </div>
-              <div class="clearfix"></div>
-              <div class="container">
-              <div class="row">
-              <div class="shadow">
-              <div class="form-group">
-                  <form class="col-xs-8 col-sm-5 col-md-3
-                              col-xs-offset-2 col-sm-offset-2 col-md-offset-0">
-                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                  </form>
-              
- 
-              <div class="col-xs-8 col-sm-3 col-md-2
-                      col-xs-offset-2 col-sm-offset-0 col-md-offset-0 submit-btn">
-                <button type="submit" class="btn">Submit</button>
-              </div>
-              </div>
+            <div class="col-xs-10 col-xs-offset-1">
+            <div class="text-center">
+            <h3>Flaneur, with a focus on probability(entrepreneurship), education(human centered design), culture(social psychology) & applied philosophy</h3>
+            <br><br>
             </div>
-              <div class="col-xs-10 col-sm-8 col-md-7
-                          col-xs-offset-1 col-sm-offset-2 col-md-offset-0
-                          visible-sm visible-xs">
-                <img src="../choice/img/kettle.jpg" class="img-responsive kettle" alt="Responsive image"> -->
-
+            
+            </div>
+            
               </div>
               </div>
               </div>
 
               </div> <!-- end of section-1 row -->
-            </div> <!-- end of section-1 container -->
-          </div> <!-- end of section-1 -->
+            
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      </div> <!-- end bg row -->
-    </div> <!-- end bg container -->
+      
+
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+       <p>Call + 1 647-648-1146</p> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
