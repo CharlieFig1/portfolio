@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #F5F8FA;
 }
 
 #background {
@@ -22,6 +23,12 @@ body {
   color: #fff;
 }
 
+.edu-logo {
+  margin-top: 20px;
+  max-width: 60%;
+
+}
+
 .img-circle {
     width: 200px;
 }
@@ -35,11 +42,14 @@ body {
 
 .bs-callout {
     padding: 20px;
+    padding-bottom: 40px;
     margin: 20px 0;
     border: 1px solid #eee;
     border-radius: 3px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: white;
 }
+
 
 /*Pills*/
 .nav-pills {
@@ -58,10 +68,11 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #f71f02;
+    background-color: #EF5350;
 }
 
-.navbar-default {
+.navbar-default,
+.navbar-collapse {
   border: none;
   }
 
@@ -73,41 +84,38 @@ body {
  }
 
 .navbar .nav-pills > li > a:hover {
-    background-color: #f71f02;
+    background-color: #EF5350;
     color: #fff;
  }
 
  .nav-pills>li>a:focus {
   color: #fff;
-  background-color: #f71f02;
+  background-color: #EF5350;
 }
 
 .navbar .nav-pills .active > a {
     background-color: #fff;
-    color:#f71f02;
-    border: 1px solid #f71f02;
+    color:#EF5350;
+    border: 1px solid #EF5350;
 }
 
 .nav-pills>li.active>a:focus {
   color: #fff;
-  background-color: #f71f02;
+  background-color:#EF5350;
 }
 /*End Pills*/
 
 /*Slide menu*/
 .navbar .navbar-nav >li > a {
-    color: #31B96E;
+    color: #FFF;
     text-align: center;
     font-weight: 500;
     z-index: 1000;
-}
-
-.navbar .navbar-nav >li > a {
-  background: rgba(212, 239, 227, 1);
+    background: transparent;
 }
 
 .navbar .navbar-nav >li > a:hover {
-    color: #31B96E;
+    color: #EF5350;
     background: rgba(176, 224, 193,1);
 }
 
@@ -128,6 +136,6 @@ body {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #31B96E;
+  background-color: #EF5350;
   color: #fff;
 }
