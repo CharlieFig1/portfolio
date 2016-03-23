@@ -64,11 +64,11 @@ body {
 
 .navbar-default .navbar-toggle:focus .icon-bar,
 .navbar-default .navbar-toggle:hover .icon-bar {
-    background-color: white;
+    color: green;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #EF5350;
+    background-color: #FFF;
 }
 
 .navbar-default,
@@ -93,15 +93,17 @@ body {
   background-color: #EF5350;
 }
 
-.navbar .nav-pills .active > a {
-    background-color: #fff;
-    color:#EF5350;
+.navbar .nav-pills .active > a,
+.nav-pills>li.active>a:focus {
+    background-color: #EF5350;
+    color:#fff;
     border: 1px solid #EF5350;
 }
 
-.nav-pills>li.active>a:focus {
+.nav-pills>li.active>a:hover{
   color: #fff;
-  background-color:#EF5350;
+  background-color:#D23D3A;
+  border: 1px solid #D23D3A;
 }
 /*End Pills*/
 
@@ -115,8 +117,8 @@ body {
 }
 
 .navbar .navbar-nav >li > a:hover {
-    color: #EF5350;
-    background: rgba(176, 224, 193,1);
+    color: #FFF;
+    background: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a, 
@@ -129,13 +131,16 @@ body {
 
 
 /*Mobile Button*/
-.navbar-default .navbar-toggle {
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus {
   /*border-color: #31B96E;*/
-  background-color: #fff;
+  background-color: #EF5350;
+  border: 1px solid #EF5350;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #EF5350;
+.navbar-default .navbar-toggle:hover {
+  background-color: #D23D3A;
+  border: 1px solid #D23D3A;
   color: #fff;
 }
+
